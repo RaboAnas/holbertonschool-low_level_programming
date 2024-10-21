@@ -1,1 +1,1 @@
-#include <stdio.h> int main() { puts("Programmer, c'est comme construire un puzzle multilingue"); return 0; }
+gcc -o 4-puts_0 -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c
