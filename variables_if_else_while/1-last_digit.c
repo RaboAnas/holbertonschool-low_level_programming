@@ -1,34 +1,3 @@
-!/bin/bash
-echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo
-10:10
-#!/bin/bash
-printf "%.2f\n" "$NUM"
-10:10
-#!/bin/bash
-printf "%X\n" "$DECIMAL"
-
-
-Desire Gael Ndong Nnang
-  2:11 PM
-#include <stdio.h>
-/**
- * main - Entry point of the program
- *
- * Description: This function prints "with proper grammar, but the outcome
- * is a piece of art," followed by a new line to the standard output.
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
-}
-New
-
-
-Desire Gael Ndong Nnang
-  2:19 PM
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
