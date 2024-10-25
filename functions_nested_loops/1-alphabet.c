@@ -1,13 +1,14 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * print_alphabet - imprime l'alphabet en minuscules, suivi d'une nouvelle ligne.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-void print_alphabet(void)
-{
-	char lettre;
+int _putchar(char c)
+{ echo {a..z}
 
-	for (lettre = 'a'; lettre <= 'z'; lettre++)
-		_putchar(lettre);
-	_putchar('\n');
+	return (write(1, &c, 1));
 }
