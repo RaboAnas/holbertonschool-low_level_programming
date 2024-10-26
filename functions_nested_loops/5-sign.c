@@ -26,4 +26,3 @@ int print_sign(int n)
 		return (-1); /* Return -1 for negative numbers */
 	}
 }
-
