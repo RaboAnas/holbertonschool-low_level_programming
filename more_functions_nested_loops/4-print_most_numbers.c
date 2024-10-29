@@ -1,8 +1,8 @@
-#include "main.h"  // Inclusion de l'en-tête pour les déclarations de fonctions
+#include "main.h"
 
 /**
- * print_most_numbers - Affiche les chiffres de 0 à 9, en excluant 2 et 4.
- */
+* print_most_numbers - Affiche les chiffres de 0 à 9, en excluant 2 et 4.
+*/
 void print_most_numbers(void)
 {
 int num;
