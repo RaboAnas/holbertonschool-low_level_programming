@@ -1,18 +1,16 @@
-#include "main.h"
+#include "main.h"  // Inclusion de l'en-tête pour les déclarations de fonctions
 
 /**
-*print_most_numbers - Prints the numbers from 0 to 9, excluding 2 and 4.
-*/
-
+ * print_most_numbers - Affiche les chiffres de 0 à 9, en excluant 2 et 4.
+ */
 void print_most_numbers(void)
 {
-int A;
-for (A = 0 ; A <= 9 ; A++)
+int num;
+for (num = 0; num <= 9; num++)
 {
-if (A != 2 && A != 4)
+if (num != 2 && num != 4)
 {
-_putchar(A + '0');
+_putchar(num + '0');
 }
-_putchar('\n');
 }
 }
